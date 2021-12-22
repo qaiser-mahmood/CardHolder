@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:gravity="top|center_horizontal|center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:divider="?android:attr/listDivider"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="3" >
+        <ImageView
+            android:id="@+id/image_view_screen_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher_background" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="@string/app_name"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="30sp"
+        android:textColor="@color/colorOrange"
+        android:fontFamily="@font/cheyenne_sans_italic"
+        android:id="@+id/text_view_heading_screen_layout" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="@string/lorem"
+        android:gravity="start|end"
+        android:lineSpacingExtra="16dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/cheyenne_sans_regular"
+        android:id="@+id/text_view_description_screen_layout" />
+
+</LinearLayout>

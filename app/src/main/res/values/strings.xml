@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Card Holder</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="email">Email</string>
+    <string name="navigate">Navigate</string>
+    <string name="card_image">Card Image</string>
+    <string name="back">BACK</string>
+    <string name="edit">EDIT</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="left_image">Left image</string>
+    <string name="right_image">Right image</string>
+    <string name="delete">Delete</string>
+    <string name="text">Text</string>
+    <string name="add">Add</string>
+    <string name="title_activity_view_card">ViewCardActivity</string>
+    <string name="title_activity_add_edit_card">AddEditCardActivity</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="done">Done</string>
+    <string name="undo">Undo</string>
+    <string name="help">Help</string>
+    <string name="translation_guide">Translation guide</string>
+    <string name="delete_all_cards">Delete all cards</string>
+    <string name="business_name_hint">Business name…</string>
+    <string name="address_hint">Address…</string>
+    <string name="phone_hint">Phone…</string>
+    <string name="email_hint">Email…</string>
+    <string name="rate_app">Rate app</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="cancel_update_subscription">To cancel, upgrade or downgrade any of your subscriptions just go to <b>My Subscriptions</b> in the menu</string>
+    <string name="month_plan_heading"><u>MONTHLY PLAN</u></string>
+    <string name="_3_month_plan_heading"><u>3 MONTH PLAN</u></string>
+    <string name="_6_month_plan_heading"><u>6 MONTH PLAN</u></string>
+    <string name="year_plan_heading"><u>YEARLY PLAN</u></string>
+    <string name="premium_version_heading"><u>PREMIUM VERSION</u></string>
+    <string name="unlimited_cards_heading"><u>UNLIMITED STORAGE</u></string>
+    <string name="unlimited_cards_description">
+        \n\u2022 Removes 25 cards storage limit
+        \n\u2022 One time payment only!
+    </string>
+
+    <string name="premium_version_description">
+        \n\u2022 Unlimited cards storage
+        \n\u2022 No ads for lifetime of app
+        \n\u2022 One time payment only!
+    </string>
+
+    <string name="month_plan_description">
+        \n\u2022 Trial period 3 days
+        \n\u2022 Cancel any time
+        \n\u2022 Price per month is:
+    </string>
+
+    <string name="_3_month_plan_description">
+        \n\u2022 Trial period 7 days
+        \n\u2022 You will be charged once every three months
+        \n\u2022 Cancel any time
+        \n\u2022 Price per 3 months is:
+    </string>
+
+    <string name="_6_month_plan_description">
+        \n\u2022 Trial period 10 days
+        \n\u2022 You will be charged once every six months
+        \n\u2022 Cancel any time
+        \n\u2022 Price per 6 months is:
+    </string>
+
+    <string name="year_plan_description">
+        \n\u2022 Trial period 14 days
+        \n\u2022 You will be charged once every year
+        \n\u2022 Cancel any time
+        \n\u2022 Price per year is:
+    </string>
+
+    <string name="swipe_left_a_card">
+        Let\'s spend few moments to explore some features of the app\n
+        \u2192 PRESS PLUS button on home screen to add a card\n
+        \u2192 SWIPE LEFT a card to open up menu to call, text, email or search on map\n
+    </string>
+    <string name="swipe_right_a_card">
+        \u2022 SWIPE RIGHT a card to open up menu to delete the card\n
+        \u2022 USE search box to search cards by name, address, phone number or email\n
+    </string>
+    <string name="view_screen_description">
+        \u2022 TAP any entry in the list for further action\n
+        \u2022 PRESS EDIT to edit a card\n
+    </string>
+    <string name="edit_screen_description">
+        \u2022 TAP any entry in the list to edit manually\n
+        \u2022 TAP ADD PHOTO to take pictures and get text automatically\n
+        \u2022 PRESS SAVE to save the card\n
+    </string>
+    <string name="help_screen_description">
+        FOR HELP, SUGGESTIONS OR PURCHASES
+        \u2022 USE menu at the top of home screen\n
+        \u2022 ENJOY!!!
+    </string>
+    <string name="auto_backup_dialog">
+        \u2022 Make sure auto backup is enabled\n\n
+        \u2022 System will automatically backup cards in your google account within 24 hours
+    </string>
+
+    <string name="qm_softwares">QM Softwares</string>
+    <string name="select">SELECT</string>
+    <string name="default_price">0.0</string>
+    <string name="right_arrow">Right arrow</string>
+    <string name="contact_us">Contact us</string>
+
+    <string name="rate_app_text">If you enjoy using Card holder app,\nplease take a moment to rate it.\nThanks for your support!</string>
+    <string name="rate_it">Rate it!</string>
+    <string name="later">Later</string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="get_unlimited_cards">Get unlimited cards</string>
+    <string name="get_premium_version">Get premium version</string>
+    <string name="my_subscriptions">My subscriptions</string>
+    <string name="feedback">Feedback</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get started</string>
+    <string name="app_help">App help</string>
+    <string name="backup_data">Backup data</string>
+    <string name="close">Close</string>
+</resources>

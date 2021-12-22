@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.business.collector.wallet.cardholder.SidePanelActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_backup"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="Backup to google"
+        android:checked="@bool/autoBackup"
+        android:id="@+id/save_cards_to_google"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete all cards"
+        android:drawableStart="@drawable/ic_remove"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/delete_all_cards" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate app"
+        android:drawableStart="@drawable/ic_star"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/rate_app" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get full version"
+        android:drawableStart="@drawable/ic_buy"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/buy_app" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change theme"
+        android:drawableStart="@drawable/ic_color_lens"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/change_theme" />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@color/colorYellow"
+    tools:context=".Fragment.AppRaterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/rounded_corner_rectangle"
+        android:gravity="end" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback"
+            android:layout_gravity="start"
+            android:textSize="30sp"
+            android:fontFamily="@font/cheyenne_sans_italic"
+            android:textColor="@color/colorOrange"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:src="@drawable/ic_thumb_up"
+                android:contentDescription="@string/rate_app" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_app_text"
+                android:textSize="14sp"
+                android:lineSpacingExtra="@dimen/vertical_space"
+                android:layout_gravity="center_vertical|end"
+                android:textColor="@color/colorDarkGray"
+                android:fontFamily="@font/poppins_regular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:gravity="end">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/text_view_rate_app"
+                android:text="@string/rate_it"
+                android:textColor="@color/colorOrange"
+                android:fontFamily="@font/yumaro_rough"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:visibility="invisible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_remind_later"
+                android:text="@string/later"
+                android:textSize="20sp"
+                android:textColor="@color/colorOrange"
+                android:fontFamily="@font/yumaro_rough"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_view_dont_show_again"
+                android:text="@string/no_thanks"
+                android:textSize="20sp"
+                android:textColor="@color/colorOrange"
+                android:fontFamily="@font/yumaro_rough"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

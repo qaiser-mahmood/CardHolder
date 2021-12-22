@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+        <item
+            android:id="@+id/contact_us"
+            android:title="@string/contact_us"
+            android:icon="@drawable/ic_contact_mail"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/backup_data"
+            android:title="@string/backup_data"
+            android:icon="@drawable/ic_backup"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/buy_premium_version"
+            android:icon="@drawable/ic_buy"
+            android:title="@string/get_premium_version"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/buy_unlimited_card_tier"
+            android:icon="@drawable/ic_donut_large"
+            android:title="@string/get_unlimited_cards"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/remove_ads"
+            android:icon="@drawable/ic_do_not_disturb"
+            android:title="@string/remove_ads"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/delete_all_cards"
+            android:title="@string/delete_all_cards"
+            android:icon="@drawable/ic_remove"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/my_subscriptions"
+            android:title="@string/my_subscriptions"
+            android:icon="@drawable/ic_subscriptions"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/app_help"
+            android:title="@string/app_help"
+            android:icon="@drawable/ic_help"
+            app:showAsAction="never" />
+</menu>

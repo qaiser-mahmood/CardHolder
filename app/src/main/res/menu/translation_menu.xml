@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/translation_edit_done"
+        android:icon="@drawable/ic_done"
+        android:title="@string/done"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/translation_edit_undo"
+        android:icon="@drawable/ic_undo"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/translation_guide"
+        android:icon="@drawable/ic_help_outline"
+        android:title="@string/help"
+        app:showAsAction="ifRoom" />
+
+</menu>

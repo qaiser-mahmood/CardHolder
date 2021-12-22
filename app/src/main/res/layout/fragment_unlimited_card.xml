@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorYellow"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".Fragment.UnlimitedCardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/rounded_corner_rectangle"
+        android:gravity="end" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/close"
+            android:src="@drawable/ic_close_black"
+            android:layout_gravity="start"
+            android:id="@+id/image_view_close_unlimitedCardFragment"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unlimited_cards_heading"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:textColor="@color/colorOrange"
+            android:drawableStart="@drawable/monthly" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:text="@string/unlimited_cards_description"
+            android:textSize="20sp"
+            android:textColor="@color/colorOrange"
+            android:fontFamily="@font/clear_sans_regular" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view_price_unlimited_card_tier"
+            android:text="@string/default_price"
+            android:textColor="@color/colorOrange"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:textSize="25sp"
+            android:fontFamily="@font/cheyenne_sans_regular"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15sp"
+            android:visibility="invisible" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_unlimited_card_tier"
+            android:text="@string/select"
+            android:background="@drawable/rounded_corner_rectangle_green" />
+    </LinearLayout>
+</LinearLayout>
